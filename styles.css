@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.agregar-producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    background: url(img/fondo-hero.webp) no-repeat center center/ cover;
+    height: 65vh;
+}
+
+.agregar-producto input{
+    margin-bottom: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.agregar-producto textarea{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.listado-productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.producto{
+    background-color: white;
+    width: 20vw;
+    max-width: 400px;
+    min-height: 400px;
+    min-width: 300px;
+    filter: drop-shadow(0 0 10px #7778);
+    position: relative;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagen img{
+    width: 250px;
+    height: 250px;
+}
+
+.descripcion{
+    padding: 30px
+}
+
+.descripcion p{
+    text-wrap: pretty;
+}
+
+.bi-trash3{
+    position: absolute;
+    color:black;
+    right: 0;
+    top: 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.bi-trash3:hover{
+    opacity: 0.7;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.comprar{
+    height: 35px;
+    width: 130px;
+    font-size: 20px;
+    margin: 0px 20px 30px 30px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bi-heart-fill{
+    height: 30px;
+    width: 50px;
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+    margin-right: 30px;
+}
