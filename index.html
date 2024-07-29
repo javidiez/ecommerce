@@ -57,13 +57,15 @@
         </div>
     </nav>
 
-
-    <div class="agregar-producto row text-center">
+    <div class="agregar-producto text-center">
         <h1 class="display-2 text-light mb-5 fw-bold">Añade los productos para vender</h1>
-        <div class="col-12 col-sm-4"> <input type="file" id="fileInput"></div>
-        <div class="col-12 col-sm-4"><textarea cols="40" rows="5" id="descripcion-producto" placeholder="Descripcion del producto"></textarea>
+        <div class="d-flex flex-column flex-wrap mb-5 px-5">
+            <div> <input type="file" id="fileInput"></div>
+            <div><textarea cols="40" rows="5" id="descripcion-producto"
+                    placeholder="Descripcion del producto"></textarea>
+            </div>
+            <div> <button id="boton-crear" class="btn btn-primary fw-bold fs-5">Crear producto</button></div>
         </div>
-        <div class="col-12 col-sm-4">  <button id="boton-crear" class="btn btn-primary fw-bold fs-5">Crear producto</button></div>
     </div>
 
     <div class="listado-productos container" id="producto">
