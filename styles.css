@@ -9,14 +9,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
     background: url(img/fondo-hero.webp) no-repeat center center/ cover;
 }
 
 .agregar-producto input{
     margin-bottom: 15px;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
+    width: clamp(20rem,20vw,60rem);
 }
 
 .agregar-producto textarea{
@@ -24,6 +25,7 @@
     border: none;
     border-radius: 5px;
     margin-bottom: 15px;
+    width: clamp(20rem,20vw,60rem);
 }
 
 .listado-productos{
